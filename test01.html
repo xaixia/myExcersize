@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            margin:0;
+        }
+        ul{
+            list-style: none;
+        }
+        .container{
+            width:calc(100% - 40px - 2px);
+            margin: 20px;
+            background: #eee;
+            float:left;
+            border:1px solid #999;
+        }
+        .container>div{
+            background: #fff;
+            padding: 20px;
+            border:1px solid #999;
+        }
+        .left{
+            width:200px;
+            float:left;
+            margin:20px;
+        }
+        .left img{
+            float:left;
+        }
+        .left p{
+            float:left;
+            margin:0 20px;
+        }
+        .container img{
+            width:80px;
+            height:80px;
+            border:1px solid #999;
+        }
+        .middle{
+            width:-webkit-calc(100% - 200px - 120px - 8px - 200px);
+            float:left;
+            margin:20px  0;
+            height:400px;
+        }
+        .right{
+            width:120px;
+            float:right;
+            margin:20px;
+        }
+        .right li{
+            text-align: center;
+        }
+        .right img{
+            margin:0 auto 20px auto;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="left">
+            <div class="teamImg">
+                <img src="img40.png" alt=""/>
+                <p>团队名称</p>
+            </div>
+        </div>
+        <div class="middle">
+            <p>概述</p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab eveniet exercitationem facere illo laboriosam omnis repellat, voluptas. Ab accusamus consequuntur debitis deserunt dolorem facere ipsam iure nihil placeat voluptatem.
+        </div>
+        <div class="right">
+            <ul>
+                <li><img src="img40.png" alt=""/></li>
+                <li><img src="img40.png" alt=""/></li>
+                <li><img src="img40.png" alt=""/></li>
+                <li><img src="img40.png" alt=""/></li>
+            </ul>
+        </div>
+    </div>
+</section>
+</body>
+</html>
